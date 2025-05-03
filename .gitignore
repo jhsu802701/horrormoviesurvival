@@ -1,0 +1,8 @@
+
+# Hugo build products
+public
+
+# Files and directories from Hugo Neutrino
+mod/*
+mod-*
+mod_app.sh
