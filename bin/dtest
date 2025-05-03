@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+echo '-------'
+echo 'hugo -D'
+docker-compose run --rm hugo hugo -D
