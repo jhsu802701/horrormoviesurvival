@@ -3,12 +3,12 @@ set -e
 
 echo '--------------'
 echo 'hugo version'
-docker-compose run --rm hugo hugo version
+docker compose run --rm hugo hugo version
 
 echo '-------------------'
 echo 'cat /etc/os-release'
-docker-compose run --rm hugo cat /etc/os-release
+docker compose run --rm hugo cat /etc/os-release
 
 echo '---'
 echo 'env'
-docker-compose run --rm hugo env
+docker compose run --rm hugo env
